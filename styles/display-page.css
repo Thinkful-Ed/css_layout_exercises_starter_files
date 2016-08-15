@@ -1,0 +1,46 @@
+.outer-box {
+	width:800px;
+	height:800px;
+	border: 1px solid black;
+	font-size: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.green {
+	
+	background-color: green;
+	height:200px;
+	width: 50%;
+	display: inline-block;
+	font-size: 0px;
+}
+
+.blue {
+	background-color: blue;
+	height:200px;
+	width: 50%;
+	display:inline-block;
+}
+
+.grey {
+	background-color: grey;
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+}
+
+.black {
+	background-color: black;
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+}
+
+.orange {
+	background-color: orange;
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+
+}

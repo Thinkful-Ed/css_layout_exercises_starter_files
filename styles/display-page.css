@@ -1,12 +1,13 @@
 main {
 	font-size: 0;
 	padding: 30px;
+	text-align: center;
 }
 .container {
 	width: 800px;
 	height: 500px;
 	display: inline-block;
-	
+
 }
 .container-one {
 	width: 50%;

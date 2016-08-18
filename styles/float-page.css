@@ -20,9 +20,13 @@ main {
 .left {
   float: left;
   margin-right: 15px;
+  width: 20em;
+  height: 20em;
 }
 
 .right {
   float: right;
   margin-left: 15px;
+  width: 20em;
+  height: 20em;
 }

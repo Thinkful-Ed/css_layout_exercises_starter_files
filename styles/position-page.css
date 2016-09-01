@@ -1,7 +1,7 @@
-main{padding:32px;}
+main{padding:33px;}
 .nav_img{
 	border-radius: 50%;
-	border:900px solid black;
+	border:1px solid black;
 	height: 50px;
 	width:50px;
 	position: absolute;

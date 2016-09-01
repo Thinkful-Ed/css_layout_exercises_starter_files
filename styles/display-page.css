@@ -1,0 +1,35 @@
+main{ padding: 30px; 
+width:800px;
+font-size:0;
+margin:auto;
+}
+
+
+
+.green {
+	background-color:green;
+	
+}
+
+
+
+.blue{background-color:blue;
+}
+ 
+.top{width:50%;
+height:200px;
+display:inline-block;
+font-size:0;
+border:1px solid black ;
+}
+
+.grey{background-color: grey;}
+.black{background-color: black;}
+.orange{background-color: orange;}
+
+.bot {width:33.33%;
+height:300px;
+display:inline-block;
+font-size:0;
+border:1px solid black;
+}

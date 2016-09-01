@@ -1,1 +1,32 @@
+main{padding:32px;}
+.nav_img{
+	border-radius: 50%;
+	border:900px solid black;
+	height: 50px;
+	width:50px;
+	position: absolute;
+	left:150px;
+}
+ul{list-style: ;
+}
+li{display: inline-block;
+}
 
+nav {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
+  border: 1px solid black;
+ 
+  position: relative;
+  
+  background-color: grey;
+}
+.box{
+  border: 10px green dotted;
+  height:300px;
+  width: 600px;
+  position: relative;
+  margin:auto;
+}

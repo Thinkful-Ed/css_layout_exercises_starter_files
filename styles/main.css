@@ -6,3 +6,54 @@ body * {
 a {
   text-decoration: none;
 }
+
+main {
+	font-size: 0;
+}
+
+.container {
+	margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+}
+
+.centred {
+	text-align: center;
+}
+
+.caja {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.up{
+	width: 50%;
+	height: 200px;
+}
+
+.down {
+	width: 33.33%;
+	height: 300px;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+	border: 1px solid;
+}

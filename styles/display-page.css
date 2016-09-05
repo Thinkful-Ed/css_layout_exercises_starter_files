@@ -1,20 +1,24 @@
-body {
+.parent {
 	font-size: 0;
 	height: 500px;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px
 	}
 
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
 .top {
 	height: 200px;
 	width: 50%;
 	display: inline-block;
 	font-size: 0px;
 	border: 1px solid black;
-	margin-right: auto;
-	margin-left: auto;
 }
+
 .green {
 	background-color: green;
 }
@@ -29,8 +33,6 @@ body {
 	border: 1px solid black;
 	display: inline-block;
 	font-size: 0px;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 .grey {

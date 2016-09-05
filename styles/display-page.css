@@ -1,0 +1,46 @@
+body {
+	font-size: 0;
+	height: 500px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.top {
+	height: 200px;
+	width: 50%;
+	display: inline-block;
+	font-size: 0px;
+	border: 1px solid black;
+	margin-right: auto;
+	margin-left: auto;
+}
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.bot {
+	height: 300px;
+	width: 33.33%;
+	border: 1px solid black;
+	display: inline-block;
+	font-size: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.black {
+	background-color: black;
+}
+
+.gold {
+	background-color: gold;
+}

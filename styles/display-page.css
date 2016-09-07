@@ -1,0 +1,51 @@
+main {
+	padding: 75px;
+	font-size: 0px;
+} 
+
+.container-one {
+	max-width: 800px;
+	height: 500px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.inner-one {
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid black;
+}
+
+.inner-two {
+	width: 33.33%;
+	height: 300px;
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid black;
+}
+
+.green-box {
+	background-color: green;
+}
+
+.blue-box {
+	background-color: blue;
+}
+
+.grey-box{
+	background-color: grey;
+}
+
+.black-box {
+	background-color: black;
+}
+
+.orange-box {
+	background-color: orange;
+}
+
+
+
+

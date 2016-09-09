@@ -1,17 +1,10 @@
-nav {
-	/*padding-left: 60px;
-	padding-right: 60px;
-	padding-top: 0px;*/
-	position: relative;
-	display: inline-block;
-	text-align: left;
-	color: grey;
-	font-color: purple;
-	height: 50px;
-	width: auto;
+html {
+	box-sizing: border-box;
 }
 
-.logo {
-	position: absolute;
-	left: 10px;
+ul {
+	list-style: none;
+}
+nav {
+	color: grey;
 }

@@ -1,3 +1,8 @@
+html {
+	background-image: images/outerspace_landscape.jpeg;
+	background-size: cover;
+}
+
 ul {
 	list-style: none;
 }

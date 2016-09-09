@@ -1,1 +1,15 @@
+nav {
+	padding-left: 60px;
+	padding-right: 60px;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	color: grey;
+	font-color: purple;
 
+}
+
+.logo {
+	position: absolute;
+	left: 10px;
+}

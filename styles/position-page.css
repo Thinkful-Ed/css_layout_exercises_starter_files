@@ -38,4 +38,25 @@ nav ul {
 
 nav li {
 	display: inline-block;
+	position: relative;
+	bottom: 20px;
+}
+li::after {
+	content: " |";
+}
+
+a:link {
+	font-color: purple;
+}
+
+a:visited {
+	font-color: blue;
+}
+
+a:hover {
+	font-color: green;
+}
+
+a:active {
+	font-color: black;
 }

@@ -40,10 +40,14 @@ main {
 .cat {
 	position: absolute;
 	left: -90px;
+	bottom: 180px;
+	width: 200px;
 }
 .dog {
 	position: absolute;
-	right: 90px;
+	right: -90px;
+	bottom: -90px;
+	width: 200px;	
 }
 nav ul {
 	display: inline-block;

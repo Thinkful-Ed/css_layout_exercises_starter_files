@@ -10,3 +10,26 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+.p1, .p2 {
+	position: center;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.leftimg {
+	float: left;
+	width: 300px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+.rightimg {
+	float: right;
+	width: 300px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;

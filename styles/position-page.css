@@ -1,3 +1,7 @@
+body {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
+	background-size: cover;
+}
 
 .container {
 	padding-right: 60px;

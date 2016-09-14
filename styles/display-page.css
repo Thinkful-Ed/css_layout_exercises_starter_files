@@ -1,0 +1,43 @@
+main{
+	font-size: 0;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	padding-top: 100px;
+}
+.box{
+	border: solid black 1px
+}
+.top_box{
+	display: inline-block;
+	height: 200px;
+	width: 50%;
+}
+.bottom_box{
+	display: inline-block;
+	width: 33.3333%;
+	height: 300px;
+}
+
+.green{
+	background-color: green;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.gray{
+	background-color: gray;
+}
+
+.black{
+	background-color: black;
+}
+
+.orange{
+	background-color: orange;
+}

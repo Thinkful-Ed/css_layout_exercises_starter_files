@@ -1,23 +1,21 @@
-main{
+main {
 	font-size: 0;
 }
 
 .container{
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 800px;
 	padding-top: 100px;
 }
 .box{
-	border: solid black 1px
+	border: solid black 1px;
+	display: inline-block;
 }
 .top_box{
-	display: inline-block;
 	height: 200px;
 	width: 50%;
 }
 .bottom_box{
-	display: inline-block;
 	width: 33.3333%;
 	height: 300px;
 }

@@ -1,0 +1,37 @@
+main {
+  padding: 30px;
+  font-size: 0;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main > div {
+  display: inline-block;
+  border: solid 1px #000;
+  box-sizing: border-box;
+}
+
+.first-row {
+  height: 200px;
+  width: 50%;
+}
+.green {
+  background-color: #3F7812;
+}
+.blue {
+   background-color: #0F50F7;
+}
+
+.second-row {
+  height: 300px;
+  width: 33.33%;
+}
+.grey {
+  background-color: #808080;
+}
+.black {
+   background-color: #000;
+}
+.gold {
+   background-color: #F1A541;
+}

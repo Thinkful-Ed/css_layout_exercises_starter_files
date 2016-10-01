@@ -1,0 +1,42 @@
+main {
+	font-size: 0;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+}
+
+.box {
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.halfbox {
+	height: 200px;
+	width: 50%;
+}
+
+.thirdbox {
+	height: 300px;
+	width: 33.333%;
+}
+
+.inner-one {
+	background-color: green;
+}
+
+.inner-two {
+	background-color: blue;
+}
+
+.inner-three {
+	background-color: grey;
+}
+
+.inner-four {
+	background-color: black;
+}
+
+.inner-five {
+	background-color: orange;
+}

@@ -1,0 +1,43 @@
+main {
+	font-size: 0;
+}
+
+.box_parent {
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	
+}
+.body * {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.box_half {
+	width: 50%;
+	height: 200px;
+}
+.box_third {
+	width: 33.33%
+	height: 300px;
+}
+.green {
+
+	background-color: green;
+}
+.blue {
+	background-color: blue;
+}
+.grey {
+	background-color: grey;
+}
+.black {
+	background-color: black;
+}
+.orange {
+	background-color: orange;
+}
+.centered {
+	text-align: center;
+}

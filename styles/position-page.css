@@ -1,1 +1,56 @@
+nav .black_cat{
+	border-radius: 50%;
+	margin-top:5px;
+	margin-bottom: 5px;
+
+}
+.nav_bar{
+	display:inline-block;
+	position: fixed;
+	left:20px;
+	bottom: 100px;
+}
+.navigation_bar{
+	padding-right: 60px;
+	padding-left:60px;
+	position: fixed;
+	background-color: gray;
+	height: 70px;
+	width:100%;
+	position: fixed;
+}
+
+ .box{
+	height:300px;
+	width:600px;
+	margin-left:auto; 
+	margin-right:auto;
+	border: 10px dotted green;
+	position: relative;
+	top:200px;
+	
+}
+.spacecat{
+	position: absolute;
+	height:200px; 
+	width:200px;
+	top:-120px;
+    right:470px;
+    border:1px blue solid;
+
+}
+.spacedog{
+	position: absolute;
+	height:200px; 
+	width:200px;
+    top:130px;
+	left:470px;
+	border:1px blue solid;
+}
+body {
+ background: url(/Users/kalanaagalakotuwa/desktop/projects /css_layout_exercises_starter_files/images/outerspace_landscape.jpeg)no-repeat;
+background-size: cover;
+}
+
+
 

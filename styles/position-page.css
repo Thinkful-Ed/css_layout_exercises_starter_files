@@ -2,13 +2,15 @@ nav .black_cat{
 	border-radius: 50%;
 	margin-top:5px;
 	margin-bottom: 5px;
-
+	height: 60px;
+	position: relative;
+	
 }
 .nav_bar{
 	display:inline-block;
-	position: fixed;
-	left:20px;
-	bottom: 100px;
+	left:175px;
+	top:20px;
+	position: absolute;
 }
 .navigation_bar{
 	padding-right: 60px;
@@ -17,7 +19,8 @@ nav .black_cat{
 	background-color: gray;
 	height: 70px;
 	width:100%;
-	position: fixed;
+	
+
 }
 
  .box{
@@ -52,5 +55,11 @@ body{
     	/outerspace_landscape.jpeg)no-repeat;
     background-size: cover;
 }
+    .nav_bar a:hover{
+
+    	color:black;
+
+    }
+
 
 

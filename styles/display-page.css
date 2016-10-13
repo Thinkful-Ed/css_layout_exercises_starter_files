@@ -9,8 +9,8 @@ main{
   margin-top:60px;
 }
 .box{
-    border:1px black solid;
-    display:inline-block;
+  border:1px black solid;
+  display:inline-block;
 }
 .half_box{
   width: 50%;

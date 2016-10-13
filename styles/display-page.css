@@ -1,43 +1,39 @@
 main {
-	font-size: 0;
+  padding: 30px;
+  font-size: 0;
 }
 
-.box_parent {
-	margin-top: 90px;
+.upper {
 	margin-left: auto;
 	margin-right: auto;
-	width: 800px;
-	
+  height: 200px;
+  width: 50%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
 }
-.body * {
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+.upper-one {
+  background-color: green;
 }
 
-.box_half {
-	width: 50%;
-	height: 200px;
+.upper-two {
+  background-color: blue;
 }
-.box_third {
-	width: 33.33%
-	height: 300px;
+.lower {
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:33.33%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
 }
-.green {
-
-	background-color: green;
+.lower-three {
+  background-color: grey;
 }
-.blue {
-	background-color: blue;
+.lower-four {
+  background-color: black;
 }
-.grey {
-	background-color: grey;
-}
-.black {
-	background-color: black;
-}
-.orange {
-	background-color: orange;
-}
-.centered {
-	text-align: center;
+.lower-five {
+  background-color: orange;
 }

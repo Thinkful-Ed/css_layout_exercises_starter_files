@@ -9,11 +9,11 @@ main{
   margin-top:60px;
 }
 .box{
-    border:1px black solid
+    border:1px black solid;
     display:inline-block;
 }
 .half_box{
-  width: 50%
+  width: 50%;
   height:200px;
 }
 .onethired_box{

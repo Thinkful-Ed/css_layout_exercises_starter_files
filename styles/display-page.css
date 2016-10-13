@@ -1,0 +1,47 @@
+main{
+  font-size:0;
+}
+.big_box{
+  width: 800px;
+  height:500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:60px;
+}
+.box{
+  border:1px black solid;
+  display:inline-block;
+}
+.half_box{
+  width: 50%;
+  height:200px;
+}
+.onethired_box{
+  width:33.33%;
+  height: 300px;
+}
+.green{
+  
+  background-color: green;
+}
+.blue{
+  
+  background-color: blue;
+}
+.gray{
+  
+  background-color: gray;
+}
+.black{
+  
+  background-color: black;
+  border: 1px solid;
+}
+.yellow{
+  
+  background-color: yellow;
+}
+.centered{
+  text-align: center;
+  display: 
+}

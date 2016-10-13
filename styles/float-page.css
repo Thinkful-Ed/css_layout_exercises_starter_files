@@ -10,3 +10,15 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+.space{
+     float: left;
+     width:300px;
+
+}
+.stars{
+     float: right;
+     width: 300px;
+}
+img{
+	margin: 10px;
+}

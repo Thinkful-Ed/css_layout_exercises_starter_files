@@ -1,0 +1,70 @@
+nav {
+	height: 60px;
+	background-color: gray;
+	position: fixed;
+	width: 100%
+}
+
+.logo {
+	border-radius: 50%;
+	border: 1px solid black;
+	vertical-align: middle;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+}
+
+li::after {
+	content: "|"
+}
+li a {
+	color: blue;
+}
+a:hover {
+	color:black;
+}
+a:visited {
+	color:purple;
+}
+
+body {
+background: url(C:/users/laura/desktop/projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg) no-repeat;
+background-size: cover;
+}
+
+main {
+	padding-top: 10px;
+	min-width: 1000px;
+}
+
+.border {
+	margin-top: 200px;
+	height: 300px;
+	width: 600px;
+	border: 10px dotted green;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spacecat, .spacedog {
+	position: absolute;
+	width: 200px;
+}
+.spacecat {
+	top: 150px;
+	left: 300px;
+}
+
+.spacedog {
+	top: 350px;
+	left: 850px;
+}

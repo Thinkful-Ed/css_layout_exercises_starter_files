@@ -1,12 +1,57 @@
 body {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 40px;
 	width: 1000px;
+	display: block;
 }
 
-.box ul{
+.container {
+	width: 100%;
 	display: inline-block;
+	margin-right: auto;
+	background-color: grey;
+	padding: 10px;
+	padding-right: 220px;
+
+
 }
 
-.navbar {
-	position: absolute;
-	}
+nav { 	
+	float: right;
+	margin-top: -60px;
+	margin-right: -200px;
+}
+
+
+header {
+	display: block;
+	margin-top: -10px;
+	background-color: grey;
+}
+
+nav-bar {
+	position: relative;
+	margin-top: 100px;
+	margin-right: 140px;
+
+}
+.magnifying-glass {
+	width: 23px;
+	margin
+}
+
+input {
+	width: 300px;
+	height: 30px;
+	font-size: 10px;
+}
+
+div 
+
+
+
+
+
+
+	

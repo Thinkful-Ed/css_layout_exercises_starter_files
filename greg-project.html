@@ -3,19 +3,32 @@
 	<title>Greg's List</title>
 	<meta charset="utf-8" name="description" content="Greg's List">
 
-	<link rel="stylesheet" type="text/css" href="/styles/greg-page.css">
+	<link rel="stylesheet" type="text/css" href="/Users/ryrankin/Desktop/projects/css_layout_exercises_starter_files/styles/greg-page.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 <body>
 <main>
-	<header>
+	<header class="container">
 		<a class="home">
 			<h1>Greg's List</h1>
 		</a>
-			<nav class="navbar">
-			<a href class="nav-link">Post</a>
-			<a href class="nav-link">Account</a>
+			<nav class="nav-bar">
+			<a href class="nav-link rel">Post</a>
+			<a href class="nav-link rel">Account</a>
+			</nav>
+	</header>
+	<br>
+	<div>
+		<form class="search-bar">
+			<h5>Search Jobs</h5>
+			<input type="text" id="search" placeholder="search software jobs">
+				<button type="submit" class="search-button">
+					<img src="images/magnifying-glass.png" class="magnifying-glass">
+				</button>	
+		</form>
+	</div>
+
 
 
 </main>

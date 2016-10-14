@@ -18,16 +18,16 @@ body {
 }
 
 nav { 	
-	float: right;
-	margin-top: -60px;
-	margin-right: -200px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 
 header {
-	display: block;
 	margin-top: -10px;
 	background-color: grey;
+	position: relative;
 }
 
 nav-bar {
@@ -47,7 +47,9 @@ input {
 	font-size: 10px;
 }
 
-div 
+.search-button {
+	padding-top: 10px;
+}
 
 
 

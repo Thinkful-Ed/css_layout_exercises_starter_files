@@ -23,7 +23,6 @@ nav.nav-bar {
 	right: 15;
 }
 
-
 header {
 	margin-top: -10px;
 	background-color: grey;
@@ -35,9 +34,10 @@ nav-bar {
 	margin-right: 140px;
 
 }
-.magnifying-glass {
-	size: 50%;
-	margin
+button .magnifying-glass {
+	width: 23px;
+	height: 23px;
+	top: 3;
 }
 
 input {
@@ -47,26 +47,38 @@ input {
 }
 
 .search-button {
-	padding-top: -10px;
+	padding-top: ;
+	margin-bottom: 20px
 }
 
 nav.page {
 	display: inline-block;
-	border: 0px solid black;
-	border-radius: 0px;
-	padding: 3px 15px;
-	postion: relative;
+	border: 1px black ;
+	border-radius: 1px solid black;
+	padding: 5px;
+	position: relative;
+	right: 30;
 }
 
-nav.page-button, span.search-field {
-	border-radius: 0px;
-	border: 2px solid black;
+.page-button {
+	border-radius: 1px solid black;
+	border: 1px solid black;
 	padding: 5px;
-	psotion: relative;
+	position: relative;
+	margin: 30px;
 }
 
 nav:hover {
-	text-decoration: underline bold
+	text-decoration: underline;
+}
+
+div {
+	margin-top: 1px;
+}
+
+.search-field {
+	border right: 1px black;
+	border left: 1px black;
 }
 
 

@@ -41,33 +41,34 @@ input {
 	font-size: 17px;
 }
 
-.magnifying-glass {
-	height: 10%;
-}
 
 .search-button {
-	vertical-align: bottom;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+	position: absolute;
+}
+
+.magnifying-glass {
+	height: 10%;
+	font-size: 17px;
 }
 	
 .page-section {
+	border: 1px black solid;
+	border-radius: 3px solid black;
+	padding: 10px;
 	display: inline-block;
-	border: 1px black ;
-	border-radius: 1px solid black;
-	padding: 5px;
-	position: relative;
 	
 }
 
-.pages-button {
+.page-button {
   font-size: 16px;
-  display: inline-block;
-  padding: 8px 15px;
-  border-radius: 3px;
+  padding: 8px 10px;
+  border-radius: 5px;
 }
 
-nav:hover {
+.page-button:hover {
 	text-decoration: underline;
+	text-decoration-style: bold;
 }
 
 div {
@@ -77,7 +78,7 @@ div {
 
 label {
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	display: block;
 }
 
@@ -85,14 +86,19 @@ label {
 .search-section input {
   font-size: 17px;
   font-weight: 500;
-  line-height: 30px;
-  height: 30px;
+  line-height: 40px;
+  height: 40px;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
   padding: 0 5px 0 8px;
   width: 400px;
 }
-
+.search-field {
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding: 5px;
+	text-transform: bold;
+}
 
 
 

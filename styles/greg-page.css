@@ -13,11 +13,12 @@ body {
 	background-color: grey;
 	padding: 10px;
 	padding-right: 200px;
+	margin-bottom: 20px
 
 
 }
 
-nav.nav-bar { 	
+.nav-bar { 	
 	position: absolute;
 	top: 75;
 	right: 15;
@@ -36,7 +37,7 @@ nav-bar {
 
 input {
 	width: 400px;
-	height: 40px;
+	height: 20px;
 	font-size: 17px;
 }
 
@@ -46,14 +47,16 @@ input {
 
 .search-button {
 	vertical-align: bottom;
+	margin-bottom: 20px;
+}
 	
-nav.page {
+.page-section {
 	display: inline-block;
 	border: 1px black ;
 	border-radius: 1px solid black;
 	padding: 5px;
 	position: relative;
-	right: 30;
+	
 }
 
 .pages-button {
@@ -71,19 +74,10 @@ div {
 	margin-top: 0px;
 }
 
-.search-section {
-	border right: 1px black;
-	border left: 1px black;
-	height: 30px;
-	font-size: 17px;
-	margin: 30px;
-	border-radius: 3px;
-	margin-bottom: 30px;
-}
 
 label {
-	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 	display: block;
 }
 

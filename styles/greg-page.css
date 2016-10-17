@@ -1,0 +1,105 @@
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 40px;
+	width: 1000px;
+	display: block;
+}
+
+.container {
+	width: 100%;
+	display: inline-block;
+	margin-right: auto;
+	background-color: grey;
+	padding: 10px;
+	padding-right: 200px;
+	margin-bottom: 20px
+
+
+}
+
+.nav-bar { 	
+	position: absolute;
+	top: 60;
+	right: 15;
+}
+
+header {
+	margin-top: -10px;
+	background-color: grey;
+	position: relative;
+}
+
+nav-bar {
+	margin-top: 100px;
+	margin-right: 140px;
+}
+
+input {
+	width: 400px;
+	height: 20px;
+	font-size: 17px;
+}
+
+
+.search-button {
+	margin-bottom: 50px;
+	position: absolute;
+}
+
+.magnifying-glass {
+	height: 11%;
+	font-size: 16px;
+	position: relative;
+}
+	
+.page-section {
+	border: 1px black solid;
+	border-radius: 3px solid black;
+	padding: 10px;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	
+}
+
+.page-button {
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 5px;
+
+}
+
+div {
+	margin-top: 0px;
+}
+
+
+label {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+.search-section input {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 40px;
+  height: 40px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+.search-field {
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding: 5px;
+	text-transform: bold;
+}
+
+
+
+
+	

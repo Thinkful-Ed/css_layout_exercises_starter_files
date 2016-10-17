@@ -20,7 +20,7 @@ body {
 
 .nav-bar { 	
 	position: absolute;
-	top: 75;
+	top: 60;
 	right: 15;
 }
 
@@ -43,13 +43,14 @@ input {
 
 
 .search-button {
-	margin-bottom: 0px;
+	margin-bottom: 50px;
 	position: absolute;
 }
 
 .magnifying-glass {
-	height: 10%;
-	font-size: 17px;
+	height: 11%;
+	font-size: 16px;
+	position: relative;
 }
 	
 .page-section {
@@ -57,6 +58,8 @@ input {
 	border-radius: 3px solid black;
 	padding: 10px;
 	display: inline-block;
+	position: relative;
+	left: 50px;
 	
 }
 
@@ -64,11 +67,7 @@ input {
   font-size: 16px;
   padding: 8px 10px;
   border-radius: 5px;
-}
 
-.page-button:hover {
-	text-decoration: underline;
-	text-decoration-style: bold;
 }
 
 div {

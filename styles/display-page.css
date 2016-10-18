@@ -1,0 +1,53 @@
+main{
+	padding: 30px;
+	font-size: 0;
+}
+
+.toybox {
+ width: 800px;
+ height: 200px;
+ display: inline-block;
+ font-size: 0px;
+ margin-left: auto;
+ margin-right:auto;
+}
+
+.green {
+	width: 50%;
+	background-color: green;
+	border: 1px black;
+}
+
+.blue {
+	width: 50%;
+	background-color: blue;
+	border: 1px black;
+}
+
+.toychest {
+	width: 800px;
+	height: 300px;
+	display: inline-block;
+	font-size: 0px;
+	margin-left: auto;
+ 	margin-right:auto;
+}
+
+.grey {
+	width: 33.33%;
+	background-color: grey;
+	border: 1px black;
+}
+
+.black {
+	width: 33.33%;
+	background-color: black;
+	border: 1px black;
+}
+
+.yellow{
+	width: 33.33%;
+	background-color: orange;
+	border: 1px black;
+
+}

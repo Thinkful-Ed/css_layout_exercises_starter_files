@@ -56,15 +56,15 @@ main {
 }
 
 .spacecat, .spacedog {
-	position: absolute;
+	position: relative;
 	width: 200px;
 }
 .spacecat {
-	top: 150px;
-	left: 300px;
+	top: -50px;
+	left: -50px;
 }
 
 .spacedog {
-	top: 350px;
-	left: 850px;
+	top: 120px;
+	left: 250px;
 }

@@ -1,0 +1,56 @@
+main{
+	/*padding-top: 100px;*/
+	/*font-size: 0px;*/
+	/*display: flex;*/
+	/*align-content: center;*/
+}
+
+
+.onerow, .tworow {
+  border: 1px solid black;	
+  max-width: 800px;
+ /*max-height: 500px;  */
+  margin: auto;
+  display: flex;
+  /*width: 800px;*/
+  /*height: 500px;*/
+}
+
+.onerow {
+	display: flex;
+	width: 100%;
+	height: 200px;
+}
+
+.tworow {
+	display: flex;
+	width: 100%;
+	height: 300px;
+}
+
+.green {
+	background-color: green;
+	display:flex;
+	width: 50%;
+}	
+
+.blue {
+	background-color: blue;
+	width: 50%;
+	paddiong: 1pxs;
+}
+
+.gray {
+	background-color: gray; 
+	width: 33.33%;
+}
+.black {
+	background-color: black;
+	width: 33.33%;
+}
+
+.gold {
+	background-color: gold;
+	width: 33.33%;
+}
+

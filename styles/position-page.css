@@ -37,7 +37,7 @@ a:visited {
 }
 
 body {
-background: url(C:/users/laura/desktop/projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg) no-repeat;
+background: url(../images/outerspace_landscape.jpeg) no-repeat;
 background-size: cover;
 }
 

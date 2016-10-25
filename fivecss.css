@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; /* Tricky: override browser default */
+  padding: 80px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.top-nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+/* Tricky / Interaction not obvious and not annotated, first :hover */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rl-logo {
+  display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+.rl-logo h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.search-section input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search-section button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.search-button {
+  vertical-align: bottom;
+}
+
+.star-icon, .magnifying-glass-icon {
+  height: 100%;
+}

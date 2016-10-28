@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sea Signup</title>
+	<meta charset="utf-8" name="description" content="A simple signup page for Analog Sea Signup.">
+	<link rel="stylesheet" type="text/css" href="styles/analog-sea.css">
+</head>
+<body>
+	<header><img src="images/logo.png"></header>
+	<main>
+		<form action="/signup/" method="POST">
+			<h1 class="cen_tex">Sign Up</h1>
+				<label for="email">Email</label>
+				<input type="email" name="email" placeholder="foo@bar.com" id="email" class="in_wid a_in">
+				<label for="password">Password</label>
+				<input type="password" name="password" placeholder="123passw0rd" id="password" class="in_wid b_in">
+				<button type="submit" class="in_wid">Sign Up</button>
+			<div class="cen_tex for"><a href="/forgot-password/new" >Forgot Password?</a></div>
+		</form>
+		<div class="cen_tex login"><span>Already have an account? </span><a href="/login">Log In</a></div>
+	</main>
+</body>
+</html>

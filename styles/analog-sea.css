@@ -41,7 +41,7 @@ h1{
 	color: #565656;
 }
 button{
-	background-color: #65c470;
+	background-color: #15CD72;
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
@@ -62,6 +62,12 @@ label{
 	font-weight: bold;
 }
 .for{
-	color: gray;
+	color: #999;
 	font-size: 17px;
+}
+.for:hover{
+	color: #777;
+}
+button:hover{
+	background-color: #0CB863;
 }

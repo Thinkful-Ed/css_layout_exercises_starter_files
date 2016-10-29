@@ -1,0 +1,99 @@
+body{
+	font-family: "Roboto",sans-serif;
+	padding: 80px;
+}
+.main_nav{
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	font-size: 17px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.top_nav{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	margin-right: 10px;
+}
+header{
+	font-size: 20px;
+	background-color: #EEEEEE;
+	position: fixed;
+	padding: 10px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.logo{
+	display: inline-block;
+}
+.logo:hover{
+	text-decoration: underline;
+}
+.logo h1{
+	font-size: 20px;
+	margin: 0;
+  	padding: 0;
+}
+.icon{
+	height: 100%;
+}
+button{
+	height: 30px;
+	font-size: 17px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	vertical-align: middle;
+	border-radius: 3px;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 5px;
+}
+ul{
+	list-style: none;
+	font-size: 17px;
+	padding: 0;
+}
+li{
+	margin-bottom: 15px;
+}
+li > a{
+	font-weight: bold;
+}
+li > span{
+	color: #999;
+}
+label{
+	display: block;
+	margin-bottom: 10px;
+}
+input{
+	width: 400px;
+	height:30px;
+	font-size: 17px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+form{
+	margin-bottom: 30px;
+}
+.main_nav a{
+	font-size: 16px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.main_nav span{
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}

@@ -1,0 +1,46 @@
+.main {
+	font-size: 0px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inner-green {
+background-color: green;
+	height: 200px;
+	width: 50%;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.inner-blue {
+background-color: blue;
+	height: 200px;
+	width: 50%;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.inner-grey {
+background-color: grey;
+	height: 300px;
+	width: 33.3%;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.inner-black {
+background-color: black;
+	height: 300px;
+	width: 33.3%;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.inner-yellow {
+background-color: #F3A633;
+	height: 300px;
+	width: 33.3%;
+	border: 1px solid black;
+	display: inline-block;
+}

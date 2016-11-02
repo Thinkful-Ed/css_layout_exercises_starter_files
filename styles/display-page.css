@@ -1,0 +1,46 @@
+main{
+	font-size: 0;
+}
+
+.inner{
+	width:800px;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+.green{
+	height:200px;
+	width:50%;
+	background-color:green;
+	text-align:center;
+	display: inline-block;
+}
+
+.blue{
+	height: 200px;
+	width:50%;
+	background-color:blue;
+	display: inline-block;
+
+}
+
+.gray{
+	background-color:gray;
+	display: inline-block;
+	height: 200px;
+	width: 33.33%;
+}
+
+.black{
+	background-color:black;
+	display: inline-block;
+	height: 200px;
+	width: 33.33%;
+}
+
+.yellow{
+	background-color:yellow;
+	display: inline-block;
+	height: 200px;
+	width: 33.33%;
+}

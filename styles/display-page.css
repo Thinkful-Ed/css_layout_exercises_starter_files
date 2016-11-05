@@ -1,0 +1,70 @@
+body {
+  background-color: white;
+  color: white;
+}
+main {
+  padding-left: 90px;
+  padding-right: 90px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+ 
+  
+}
+
+main {
+  font-size: 0;
+}
+
+
+.box-parent {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+   font-size: 0;
+}
+
+.box {
+  
+  display: inline-block;
+   
+}
+
+.top-half {
+  width: 50%;
+  height: 200px;
+   
+}
+
+.bottom-third {
+  width: 33.33%;
+  height: 300px;
+  
+}
+
+.black {
+  background-color: black;
+ 
+}
+
+.green {
+  background-color: green;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange
+}
+
+.centered {
+  text-align: center;
+}

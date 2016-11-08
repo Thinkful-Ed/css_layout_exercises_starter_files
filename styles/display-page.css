@@ -1,0 +1,42 @@
+main{
+	font-size:0px;
+}
+.master_class{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+.box{
+	display:inline-block;
+	font-size:0;
+}
+.top_box{
+	width: 50%;
+	height: 200px;
+	border: 1px solid black;
+}
+.bottom_box{
+	width: 33.33%;
+	height: 300px;
+	border: 1px solid black;
+}
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.grey{
+	background-color: grey;
+}
+.black{
+	background-color: black;
+	border: 1px solid black;
+}
+.orange{
+	background-color: orange;
+}
+.centered_class{
+	text-align: center;
+}

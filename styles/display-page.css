@@ -1,0 +1,39 @@
+main {
+  padding: 30px;
+  width: 800px;
+  height: 500px;
+  border: 1px black solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  height: 200 px;
+  width: 50%;
+  display: inline-block;
+}
+
+.one {
+  background-color: green;
+}
+
+.two {
+  background-color: blue;
+}
+
+.bot {
+  width: 33.33%
+  height 300 px;
+}
+
+.thr {
+  background-color: gray;
+}
+
+.fou {
+  background-color: black;
+}
+
+.fiv {
+  background-color: yellow;
+}

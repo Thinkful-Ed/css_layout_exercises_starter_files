@@ -26,6 +26,8 @@ box_third {
 
 .black {
 	background-color: black;
+	width: 33.33%;
+	height: 300px;
 }
 
 .green {
@@ -38,7 +40,15 @@ box_third {
 
 .orange {
 	background-color: orange;
+	width: 33.33%;
+	height: 300px;
 }
+.grey {
+	background-color: grey;
+	width: 33.33%;
+	height: 300px;
+}
+
 
 .centered {
   text-align: center;

@@ -1,0 +1,10 @@
+main{
+	font-size: 0;
+}
+
+.box-parent {
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}

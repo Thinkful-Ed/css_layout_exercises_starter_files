@@ -1,0 +1,49 @@
+
+main {
+	font-size: 0;
+}
+
+
+.block {
+	width: 800px;
+	height:500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+
+}
+
+.bounding {
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.box1 {
+background-color: green;
+width: 50%;
+height:200px;
+}
+
+.box2 {
+	background-color: blue;
+	width: 50%;
+	height:200px;
+}
+
+.box3 {
+	background-color: gray;
+	width: 33.33%;
+	height:300px;
+}
+
+.box4 {
+	background-color: black;
+	width: 33.33%;
+	height:300px;
+}
+
+.box5 {
+	background-color: orange;
+	width: 33.33%;
+	height:300px;
+}

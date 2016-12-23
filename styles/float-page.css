@@ -3,6 +3,20 @@ body {
   color: white;
 }
 
+
+.left{
+	float: left;
+	display: absolute;
+	width: 400px
+}
+
+.right{
+	float: right;
+	display: inline-block;
+	width: 400px;
+}
+
+
 main {
   padding-left: 90px;
   padding-right: 90px;

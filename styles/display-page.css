@@ -1,0 +1,42 @@
+main {
+	width: 800px;
+	border: 1px solid black;
+	font-size: 0px;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 100px;
+}
+
+.halfwidth {
+	height: 200px;
+	width: 50%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.thirdwidth {
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.black {
+	background-color: black;
+}
+
+.orange {
+	background-color: orange;
+}

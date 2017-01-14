@@ -1,0 +1,42 @@
+main {
+	padding: 30px;
+	width: 800px;
+	font-size: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.first {
+	height: 200px;
+	width: 50%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.green-box {
+	background-color: green;
+}
+
+.blue-box {
+	background-color: blue;
+}
+
+.second {
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.grey-box {
+	background-color: grey;
+}
+
+.black-box {
+	background-color: black;
+}
+
+.yellow-box {
+	background-color: yellow;
+}

@@ -1,0 +1,41 @@
+main{
+  width: 800px;
+  height: 500px;
+  font-size: 0;
+  padding: 30px;
+  margin: auto;
+}
+
+.rectangular {
+  width: 50%;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 0;
+}
+
+.rectangular-one {
+  background-color: green;
+}
+
+.rectangular-two {
+  background-color: blue;
+}
+
+.square {
+  width: 33.33%;
+  height: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 0;
+}
+
+.square-one{
+  background-color: grey;
+}
+.square-two{
+  background-color: black;
+}
+.square-three{
+  background-color: yellow;
+}

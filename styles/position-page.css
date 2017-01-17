@@ -1,1 +1,40 @@
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: grey;
+  padding: 5px;
+}
 
+nav img {
+  width: 72px;
+  height: 72px;
+  margin-left: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+nav ul {
+  list-style: none;
+  position: relative;
+  left: 200px;
+  top: -70px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.box {
+  height: 300px;
+  width: 600px;
+  border: 10px green dotted;
+  margin: auto;
+}
+
+.background_land {
+  background-image: image(images/outerspace_landscape.jpeg);
+}
+
+.center {
+  text-align: center;
+}

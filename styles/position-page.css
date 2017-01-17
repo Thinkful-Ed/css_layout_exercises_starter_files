@@ -1,40 +1,80 @@
+main {
+  margin: 0px;
+}
+
 nav {
-  height: 80px;
+  height: 75px;
   width: 100%;
+
+  /* T,B,R,L */
+  text-align: left;
   background-color: grey;
-  padding: 5px;
+  position: fixed;
+  padding-left: 100px;
+  padding-top: 2px;
 }
 
 nav img {
-  width: 72px;
   height: 72px;
-  margin-left: 100px;
-  border-radius: 50%;
+  width: 72px;
   border: 1px solid black;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
 nav ul {
   list-style: none;
-  position: relative;
-  left: 200px;
-  top: -70px;
-}
-
-nav ul li {
   display: inline-block;
 }
 
+nav ul li{
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.active {
+  color: yellow;
+}
+
+main {
+  top: 90px;
+  min-width: 1000px;
+}
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
 .box {
-  height: 300px;
+  top: 150px;
   width: 600px;
-  border: 10px green dotted;
-  margin: auto;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.background_land {
-  background-image: image(images/outerspace_landscape.jpeg);
+.cat, .dog {
+  position: absolute;
+  width: 200px;
 }
 
-.center {
-  text-align: center;
+.cat {
+  top: -90px;
+  left: -90px;
+}
+
+.dog {
+  bottom: -120px;
+  right: -60px;
 }

@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 body * {
 	font-size: 1em;
 }
 
+=======
+>>>>>>> 71889d858836acc075c956ebc9af634754be6748
 .container {
 	padding-right: 60px;
 	padding-left: 60px;
@@ -26,18 +29,26 @@ nav .logo {
 }
 
 nav ul {
+<<<<<<< HEAD
 	list-style: none;
 	font-size: 1em;
 	margin-left: 60px;
 	position: relative;
 	top: 20px;
+=======
+	display: inline-block;
+	list-style: none;
+>>>>>>> 71889d858836acc075c956ebc9af634754be6748
 }
 
 nav li {
 	margin-left: 5px;
+<<<<<<< HEAD
 	display: inline-block;
 	text-decoration: none;
 	color: #000;
+=======
+>>>>>>> 71889d858836acc075c956ebc9af634754be6748
 }
 
 .links > li {

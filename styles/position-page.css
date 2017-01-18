@@ -1,1 +1,59 @@
+nav {
+	position: fixed;
+	height:100px;
+	width: 100vw;
+	background-color: grey;
+	padding-top: 20px;
+	padding-right: 60px;
+	text-align: right;
+}
 
+.logo {
+	position: absolute;
+	left: 60px;
+	border: 1px solid black;
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+}
+
+.links > li {
+	position: relative;
+	top: 20px;
+	right: 60px;
+}
+
+.box {
+	position: relative;
+	top: 300px;
+	left: 100px;
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+}
+
+.spacecat, .spacedog {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.spacecat {
+	top: -100px;
+	left: -100px;
+}
+
+.spacedog {
+	top: 200px;
+	left: 500px;
+}
+
+img.bg {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}

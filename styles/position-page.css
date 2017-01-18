@@ -1,20 +1,33 @@
+.container {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
 nav {
 	position: fixed;
 	height:100px;
-	width: 100vw;
+	width: 100%;
 	background-color: grey;
-	padding-top: 20px;
-	padding-right: 60px;
-	text-align: right;
 }
 
-.logo {
+nav .logo {
 	position: absolute;
 	left: 60px;
+	top: 20px;
+	vertical-align: middle;
 	border: 1px solid black;
 	height: 60px;
 	width: 60px;
-	border-radius: 50px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav li {
+	margin-left: 5px;
 }
 
 .links > li {

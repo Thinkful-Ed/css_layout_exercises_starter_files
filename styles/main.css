@@ -1,8 +1,49 @@
 body * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  font-size: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.top-box {
+	height: 200px;
+	width: 50%;
+	display: inline-block;
+	border: 1px solid #000;
+	
+}
+
+.bot-box {
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+	border: 1px solid #000;
+}
+
+.green-box {
+	background-color:green;
+}
+
+.blue-box {
+	background-color: blue;
+}
+
+.grey-box {
+	background-color: grey;
+}
+
+.black-box {
+	background-color: black;
+}
+
+.orange-box {
+	background-color: orange;
 }

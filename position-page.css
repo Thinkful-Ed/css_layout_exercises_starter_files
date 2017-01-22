@@ -1,0 +1,38 @@
+.padding {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+nav {
+	background-color: grey;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+
+nav .cat-img {
+	height: 50px;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+ 	border-radius: 50%;
+  	vertical-align: middle;
+  	border: 1px solid black;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li::after {
+	content: "|";
+	margin-left: 2px;
+}
+
+nav a:hover {
+	color: black;
+}

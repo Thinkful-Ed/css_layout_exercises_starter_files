@@ -1,1 +1,13 @@
+nav {
+  padding-top: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  text-align: right;
+  position: relative;
+  height: 50px;
+}
 
+.logo {
+  position: absolute;
+  left: 10px;
+}

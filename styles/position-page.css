@@ -1,13 +1,20 @@
-nav {
-  padding-top: 10px;
-  padding-right: 10px;
-  border: 1px solid black;
-  text-align: right;
-  position: relative;
-  height: 50px;
+.container {
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
-.logo {
-  position: absolute;
-  left: 10px;
+nav {
+	height: 60px;
+	background-color: grey;
+	position: fixed;
+	width: 100%;
+}
+
+nav .icon-img {
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid black;
 }

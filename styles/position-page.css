@@ -56,3 +56,18 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.spacecat, .spacedog {
+	position: absolute;
+	width: 200px;
+}
+
+.spacecat {
+	top: -90px;
+	left: -90px;
+}
+
+.spacedog {
+	bottom: -120px;
+	right: -60px;
+}

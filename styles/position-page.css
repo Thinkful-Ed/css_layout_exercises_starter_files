@@ -31,3 +31,8 @@ nav .icon-img {
 a {
 	text-decoration: none;
 }
+
+body {
+	background: url(images/outerspace_landscape.jpeg);
+	background-size: cover;
+}

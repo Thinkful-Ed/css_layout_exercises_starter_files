@@ -23,3 +23,7 @@ nav .icon-img {
 	vertical-align: middle;
 	border: 1px solid black;
 }
+
+a {
+	text-decoration: none;
+}

@@ -15,6 +15,10 @@ nav ul {
 	list-style: none
 }
 
+nav li {
+	display: inline-block;
+}
+
 nav .icon-img {
 	height: 50px;
 	margin-top: 5px;

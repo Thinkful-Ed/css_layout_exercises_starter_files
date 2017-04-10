@@ -1,1 +1,12 @@
+nav {
+  background-color: grey;
+  padding-right: 60px;
+  text-align: left;
+  position: relative;
+  height: 35px;
+}
 
+.logo {
+  position: absolute;
+  left: 60px;
+}

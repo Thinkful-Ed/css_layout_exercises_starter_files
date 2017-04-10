@@ -36,3 +36,10 @@ body {
 	background: url(https://fosterthis.github.io/images/outerspace_landscape.jpeg) no-repeat;
 	background-size: cover;
 }
+
+.box {
+	width: 600px;
+	height: 300px;
+	position: relative;
+	border: 10px dotted green;
+}

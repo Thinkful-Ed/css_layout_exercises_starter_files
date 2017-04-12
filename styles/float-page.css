@@ -13,5 +13,5 @@ main {
 
 .left {
 	float: left;
-	margin: 10px;
+	margin-left: 10px;
 }

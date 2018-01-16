@@ -1,1 +1,91 @@
+nav{
+	padding: 10px;
+	text-align: left;
+	padding-left: 60px;
+	padding-right: 60px;
+	position: absolute;
+	background-color: grey;
+	height: 10%;
+	width: 100%;
+}
+
+nav ul{
+	display: inline-block;
+	text-align: left;
+	padding-left: 63px;
+	position: absolute;
+
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: center;
+
+}
+
+nav ul li::after{
+	content: " | ";
+
+}
+
+nav img{
+	display: inline-block;
+	border-radius: 100px;
+	height: 70%;
+	vertical-align: center;
+	border: 1px solid black;
+	position: absolute;
+}
+
+body{
+	  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  	  background-size: cover;
+}
+
+main{
+	padding-top: 200px;
+	width: fill;
+	height: fill;
+
+}
+
+.rectangle{
+	display: block;
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+
+.cat{
+	display: block;
+	background: url(../images/spacecat.png) no-repeat;
+  	background-size: cover;
+  	width: 200px;
+  	height:200px;
+  	position: relative;
+  	margin-left: -100px;
+  	margin-right: auto;
+  	margin-top: -100px;
+  	margin-bottom: auto;
+}
+
+.dog{
+	display: block;
+	background: url(../images/spacedog.png) no-repeat;
+  	background-size: cover;
+  	width: 200px;
+  	height:200px;
+  	position: relative;
+  	margin-left: auto;
+  	margin-right: -100px;
+  	margin-top: auto;
+  	margin-bottom: -100px;
+}
 

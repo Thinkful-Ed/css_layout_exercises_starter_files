@@ -1,0 +1,34 @@
+main {
+  padding: 30px;
+  font-size: 0;
+}
+.inner-1{
+  height: 200px;
+  width: 50%;
+  font-size:0;
+  display: inline-block;
+  border: 1px solid black;
+
+}
+.inner-2{
+  height: 300px;
+  width: 33.3%;
+  font-size: 0;
+  display: inline-block;
+  border: 1px solid black;
+}
+.inner-col-1{
+  background-color: green;
+}
+.inner-col-2{
+  background-color: blue;
+}
+.inner-col-3{
+  background-color: grey;
+}
+.inner-col-4{
+  background-color: black;
+}
+.inner-col-5{
+  background-color: orange;
+}

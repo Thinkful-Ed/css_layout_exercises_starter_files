@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 90px auto;
+  width: 800px;
+  font-size: 0;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+#green {
+  background: green;
+  height: 200px;
+  width: 50%;
+  float: left;
+}
+#blue {
+  background: blue;
+  height: 200px;
+}
+#grey {
+  background: grey;
+  height: 300px;
+  float: left;
+  width: 33.33%
+}
+#black {
+  background: #000;
+  height: 300px;
+  float: left;
+  width: 33.33%;
+}
+#yellow {
+  background: orange;
+  height: 300px;
+}

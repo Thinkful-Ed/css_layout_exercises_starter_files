@@ -1,0 +1,53 @@
+main {
+	padding-top: 60px;
+	font-size: 0;
+}
+.parent-box {
+	width: 800px;
+	height: 500px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+.centerd {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.display {
+	display: inline-block;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.half_green {
+	width: 50%;
+	height: 200px;
+	background-color: green;
+}
+
+.half_blue {
+	width: 50%;
+	height: 200px;
+	background-color: blue;
+}
+
+.left_gray {
+	width: 33.3%;
+	height: 300px;
+	background-color: gray;
+}
+.middle_black {
+	width: 33.3%;
+	height: 300px;
+	background-color: black;
+}
+.end_orange {
+	width: 33.3%;
+	height: 300px;
+	background-color: orange;
+}

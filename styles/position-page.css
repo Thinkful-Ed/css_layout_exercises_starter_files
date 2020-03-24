@@ -1,1 +1,73 @@
+nav {
+    background: grey;
+    position: relative;
+    text-align: left;
+}
 
+html {
+    background: url("https://raw.githubusercontent.com/samuelm00/css_layout_exercises_starter_files/master/images/outerspace_landscape.jpeg") no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.block{
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid black;
+
+    left: 100px;
+}
+
+.link {
+    font-size: 20px;
+}
+
+.cat {
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.super_boder {
+    position: relative;
+    height: 500px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.block_border {
+    margin-top: 200px;
+    height: 300px;
+    width: 600px;
+    border: 10px green dotted;
+}
+
+.up_left {
+    position: absolute;
+    bottom: 400px;
+    right: 650px;
+}
+
+.bottom_right {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}

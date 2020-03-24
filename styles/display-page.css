@@ -1,0 +1,57 @@
+body * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    font-size: 0;
+}
+
+.bigBlock {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inside {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.greyBox {
+    width: 33.33%;
+    background-color: grey;
+    height: 300px;
+}
+
+.blackBox {
+    width: 33.33%;
+    background-color: black;
+    height: 300px;
+}
+
+.orangeBox {
+    width: 33.33%;
+    background-color: orange;
+    height: 300px;
+}
+
+.greenBox {
+    width: 50%;
+    background-color: green;
+    height: 200px;
+}
+
+.blueBox {
+    width: 50%;
+    background-color: blue;
+    height: 200px;
+}
+
+.centered {
+    text-align: center;
+}

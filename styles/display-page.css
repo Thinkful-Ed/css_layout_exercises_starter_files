@@ -1,0 +1,38 @@
+
+.parent-box{
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+}
+.inner1{
+    font-size: 0;
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+    border: 1px solid black;
+}
+.green{
+    background-color: green;
+
+}
+.blue{
+    background-color: blue;
+}
+.inner2{
+    font-size: 0;
+    width: 33.3%;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid black;
+}
+.black{
+    background-color: black;
+}
+.grey{
+    background-color: grey;
+}
+.yellow{
+    background-color: yellow;
+}

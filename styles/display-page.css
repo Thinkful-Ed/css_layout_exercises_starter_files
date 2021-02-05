@@ -1,0 +1,37 @@
+main{
+    padding: 200px;
+}
+.parent-div {
+    height: 500px;
+    width: 800px;
+    font-size: 0;
+    margin: auto;
+    
+}
+.horizontal {
+    display: inline-block;
+    height: 200px;
+    width: 50%;
+    border: 1px black solid;
+}
+.vertical {
+    display: inline-block;
+    height: 300px;
+    width: 33.33%;
+    border: 1px black solid;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.grey{
+    background-color: grey;
+}
+.yellow{
+    background-color: rgb(255, 187, 1);
+}
